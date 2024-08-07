@@ -1,0 +1,13 @@
+<dependencies>
+    <!-- Other dependencies -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>5.3.23</version> <!-- Use the latest version -->
+    </dependency>
+    <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>1.9.9.1</version> <!-- Use the latest version -->
+    </dependency>
+</dependencies>
