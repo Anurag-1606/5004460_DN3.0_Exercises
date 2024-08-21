@@ -1,0 +1,15 @@
+Spring Boot 3 introduces several key updates:
+
+1.Java 17+ Baseline: Requires Java 17, bringing modern language features and improved performance.
+
+2.Native Image Support: Out-of-the-box support for GraalVM, allowing applications to be compiled into native executables for faster startup and lower memory usage.
+
+3.Enhanced Observability: New Micrometer Observation API integrates metrics, tracing, and logging, with better support for OpenTelemetry.
+
+4.Jakarta EE 9+: Migrated from javax.* to jakarta.*, aligning with the latest Jakarta EE specifications.
+
+5.Security Improvements: Enhanced OAuth2/OIDC support, declarative HTTP security, and updated password encoding options.
+
+6.Upgraded Dependencies: Hibernate 6, improved Spring Data, and better support for modular applications.
+
+7.Kubernetes and Cloud Support: Improved integration with Kubernetes and cloud platforms, enhancing deployment and observability.
