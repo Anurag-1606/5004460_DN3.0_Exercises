@@ -1,0 +1,6 @@
+dependencies {
+    // Other dependencies
+
+    // Spring Boot Actuator dependency
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+}

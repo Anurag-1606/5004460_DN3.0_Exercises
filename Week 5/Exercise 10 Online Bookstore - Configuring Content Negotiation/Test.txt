@@ -1,0 +1,29 @@
+curl -H "Accept: application/json" http://localhost:8080/books
+
+[
+  {
+    "id": 1,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee"
+  }
+]
+
+curl -H "Accept: application/xml" http://localhost:8080/books
+
+<List>
+  <book>
+    <id>1</id>
+    <title>The Catcher in the Rye</title>
+    <author>J.D. Salinger</author>
+  </book>
+  <book>
+    <id>2</id>
+    <title>To Kill a Mockingbird</title>
+    <author>Harper Lee</author>
+  </book>
+</List>

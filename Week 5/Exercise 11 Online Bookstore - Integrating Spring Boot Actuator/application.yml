@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /management
+
+  endpoint:
+    metrics:
+      enabled: true
+    httptrace:
+      enabled: true
+  health:
+    show-details: always
